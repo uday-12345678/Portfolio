@@ -9,6 +9,7 @@ function Skills() {
     { id: 5, name: "SQL", level: "Advanced" },
     { id: 6, name: "Power Bi", level: "Intermediate" },
     { id: 7, name: "MS Excel", level: "Advanced" },
+    { id: 8, name: "Python", level: "Intermediate" },
   ];
 
   return (
@@ -25,3 +26,4 @@ function Skills() {
 }
 
 export default Skills;
+
