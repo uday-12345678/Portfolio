@@ -395,6 +395,58 @@ p {
     width: 100%;
   }
 }
+.about-text {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #475569;
+}
+.what-i-do {
+  text-align: center;
+}
+
+.what-i-do h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #1e293b;
+}
+
+.what-i-do-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 28px;
+}
+
+.what-i-do-card {
+  background: linear-gradient(180deg, #ffffff, #eef2ff);
+  padding: 28px;
+  border-radius: 18px;
+  text-align: left;
+
+  box-shadow: 0 20px 40px rgba(99, 102, 241, 0.15);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.what-i-do-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 30px 60px rgba(99, 102, 241, 0.25);
+}
+
+.what-i-do-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #4f46e5;
+  margin-bottom: 12px;
+}
+
+.what-i-do-card p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #475569;
+}
+
 
 
 
