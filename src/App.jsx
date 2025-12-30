@@ -2,10 +2,10 @@ import { useState,useRef } from "react";
 import "./App.css";
 import Navbar from "./navbar.jsx";
 import Footer from "./footer.jsx";
-import Usercard from "./Usercard.jsx";
 import Skills from "./skills.jsx";
 import Contact from "./Contact.jsx";
 import Projects from "./Projects.jsx";
+import WhatIDo from "./WhatIDo.jsx";
 
 function App() {
   const homeRef = useRef(null);
@@ -50,16 +50,12 @@ function App() {
             <button onClick={() => scrollToSection(contactRef)}>Contact Me</button>
           </div>
         </section>  
-        {/* ABOUT SECTION */}
-        <section ref={aboutRef} className="section">
-          <h2>About</h2>
-          <div className="cards-container">
-            <Usercard name="Uday" email="nani@gmail.com" />
-            <Usercard name="Divya Bhargavi" email="pinky@gmail.com" />
-            <Usercard name="Anusha" email="anusha@gmail.com" />
-            <Usercard name="Vaarshik" email="vaarshik@gmail.com" />
-          </div>
+
+        {/* WHAT I DO SECTION */}
+        <section ref={aboutRef} className="what-i-do section">
+          <WhatIDo />
         </section>
+
         {/* SKILLS SECTION */}
         <section ref={skillref} className="section">
           <h2>Skills</h2>
