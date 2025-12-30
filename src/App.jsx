@@ -6,7 +6,7 @@ import Skills from "./skills.jsx";
 import Contact from "./Contact.jsx";
 import Projects from "./Projects.jsx";
 import WhatIDo from "./WhatIDo.jsx";
-
+import ResumeCTA from "./Resume.jsx";
 function App() {
   const homeRef = useRef(null);
   const aboutRef = useRef(null);
@@ -54,6 +54,7 @@ function App() {
         {/* WHAT I DO SECTION */}
         <section ref={aboutRef} className="what-i-do section">
           <WhatIDo />
+          <ResumeCTA />
         </section>
 
         {/* SKILLS SECTION */}
