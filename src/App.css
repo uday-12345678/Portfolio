@@ -151,12 +151,29 @@ body {
 
 /* FOOTER */
 .footer {
+  padding: 24px 0;
   text-align: center;
-  padding: 1rem;
-  border-top: 1px solid #eaeaea;
-  margin-top: 40px;
-  color: hsl(0, 0%, 53%);
+  color: #64748b;
 }
+
+.footer-icons {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.footer-icons a {
+  font-size: 18px;
+  color: #6366f1; /* theme color */
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.footer-icons a:hover {
+  color: #4338ca;
+  transform: translateY(-3px);
+}
+
 .card,
 .user-card,
 .skill-card {
