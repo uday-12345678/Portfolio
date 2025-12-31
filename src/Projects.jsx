@@ -8,7 +8,7 @@ function Projects() {
       description: "Personal portfolio built using React.",
       tech: "React • CSS • JavaScript",
       image: "Portfolio.png",
-      link: "https://your-project-1.vercel.app",
+      link: "https://portfolio-alpha-cyan-ql89u1xiyk.vercel.app/",
     },
     {
       id: 2,
@@ -38,3 +38,4 @@ function Projects() {
 }
 
 export default Projects;
+
