@@ -14,7 +14,7 @@ export default function Footer() {
                     <FaLinkedinIn />
                 </a>
 
-                <a href="https://instagram.com/yourprofile" target="_blank" rel="noreferrer">
+                <a href="https://www.instagram.com/udaynani19?igsh=MXdhNDIzNWZ5Y3k0Mg%3D%3D&utm_source=qr" target="_blank" rel="noreferrer">
                     <FaInstagram />
                 </a>
 
@@ -25,3 +25,4 @@ export default function Footer() {
         </footer>
     );
 }
+
